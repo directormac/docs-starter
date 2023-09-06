@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "description": "A minimal SSG for this template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev pages --open --port 5000",
+    "build": "vitepress build pages",
+    "preview": "vitepress preview pages"
+  },
+  "keywords": [
+    "docs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.10"
+  }
+}

@@ -1,2 +1,1 @@
-# docs-starter
-A Minimal vitepress SSG
+A minimal docs project
