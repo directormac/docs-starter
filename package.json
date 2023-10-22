@@ -1,19 +1,21 @@
 {
-  "name": "docs",
-  "version": "0.0.0",
-  "description": "A minimal SSG for this template",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vitepress dev pages --open --port 5000",
-    "build": "vitepress build pages",
-    "preview": "vitepress preview pages"
+  "name": "vitepress-docs-template",
+  "version": "0.0.1",
+  "description": "A vitepress docs template",
+  "author": {
+    "name": "Artifex",
+    "email": "mac@mkra.dev",
+    "url": "https://mkra.dev"
   },
-  "keywords": [
-    "docs"
-  ],
-  "author": "",
   "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev --host --port 5000",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.10"
+    "markdown-it-task-lists": "^2.1.1",
+    "markdown-it-textual-uml": "^0.16.0",
+    "vitepress": "1.0.0-rc.23"
   }
 }
