@@ -33,7 +33,6 @@ const sidebarGuides = (): DefaultTheme.SidebarItem[] => {
 export default defineConfig({
   title: "Community Kit",
   description: "A Community Manager Svelte-Kit Pocketbase Project",
-  outDir: "../api/pb_public",
   assetsDir: "static",
   markdown: {
     config: (md) => {
@@ -53,6 +52,7 @@ export default defineConfig({
           { text: "Project Structure", link: "/guides/index" },
         ],
       },
+      { text: "About", link: "/about" },
     ],
     sidebar: {
       "/app": sidebarApp(),
